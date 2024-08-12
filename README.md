@@ -1,14 +1,16 @@
-**What is Nextcloud?**
+## What is Nextcloud?
 
 Nextcloud is a powerful open-source platform that lets you set up your own private cloud storage. Imagine having your own personal version of Google Drive or Dropbox, but with complete control over your data. That’s what Nextcloud offers—it allows you to store, share, and access all your files, documents, and other data from any device with an internet connection, without relying on third-party services.
+
+![Alt text](https://nextcloud.com/c/uploads/2023/07/nextcloud-home-featured-image-3.jpg)
 
 ## Key Features of Nextcloud
 
 - **File Storage and Sharing:** Easily and securely store, sync, and share your files across all your devices.
-- **Collaboration Tools:** Work together with others using built-in tools for editing documents, sharing calendars, making video calls, and managing tasks.
+- **Collaboration Tools:** Work with others using built-in tools to edit documents, share calendars, make video calls, and manage tasks.
 - **Security:** Benefit from top-notch security features like encryption, two-factor authentication, and protection against ransomware.
-- **Customization:** Tailor Nextcloud to your needs with a variety of plugins and apps that enhance its functionality.
-- **Self-Hosted:** Host Nextcloud on your own server, a virtual private server (VPS), or even on your own hardware at home or work.
+- **Customization:** Tailor Nextcloud to your needs with various plugins and apps that enhance its functionality.
+- **Self-Hosted:** Host Nextcloud on your server, a virtual private server (VPS), or even on your hardware at home or work.
 
 ## Why Use Nextcloud?
 
@@ -204,4 +206,7 @@ sudo systemctl restart apache2
 #### Step 19: Access Nextcloud
 
 Launch your web browser and go to the IP address or domain of your server. Follow the setup instructions to complete the installation of Nextcloud.
+
+```
+![Alt text](https://nextcloud.com/media/nextcloud20.png)
 ```
