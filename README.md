@@ -1,6 +1,6 @@
 ## What is Nextcloud?
 
-Nextcloud is a powerful open-source platform that lets you set up your own private cloud storage. Imagine having your own personal version of Google Drive or Dropbox, but with complete control over your data. That’s what Nextcloud offers—it allows you to store, share, and access all your files, documents, and other data from any device with an internet connection, without relying on third-party services.
+Nextcloud is a powerful open-source platform that lets you set up your private cloud storage. Imagine having your version of Google Drive or Dropbox, but with complete control over your data. That’s what Nextcloud offers—it allows you to store, share, and access all your files, documents, and other data from any device with an internet connection, without relying on third-party services.
 
 ![Alt text](https://nextcloud.com/c/uploads/2023/07/nextcloud-home-featured-image-3.jpg)
 
@@ -97,7 +97,7 @@ Inside the MariaDB monitor, run:
 
 ```sql
 CREATE DATABASE nextcloud;
-GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'Govind1234';
 FLUSH PRIVILEGES;
 EXIT;
 ```
@@ -207,6 +207,4 @@ sudo systemctl restart apache2
 
 Launch your web browser and go to the IP address or domain of your server. Follow the setup instructions to complete the installation of Nextcloud.
 
-```
 ![Alt text](https://nextcloud.com/media/nextcloud20.png)
-```
