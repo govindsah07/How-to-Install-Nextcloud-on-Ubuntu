@@ -195,7 +195,7 @@ sudo systemctl reload apache2
 sudo apachectl -t
 ```
 
-Ensure the syntax is OK.
+Ensure the syntax is OK
 
 #### Step 18: Restart Apache Web Server
 
